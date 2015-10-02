@@ -43,8 +43,20 @@ img {
 }
 
 li {
-  display: inline-block;
+  display: block;
 }
+
+.logo {
+  width: 100%;
+  padding: 1em;
+  float: left;
+}
+
+.logo img {
+  display: block;
+  width: woo%;
+}
+
 /*footer, img {
   /*display: inline-block;
   margin: 0;
