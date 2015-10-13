@@ -39,11 +39,15 @@ p {
 }
 
 img {
-  width: 45%;
+  width: 42%;
 }
 
 li {
   display: inline;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 25em) {
@@ -63,7 +67,7 @@ li {
   }
 
   ul {
-    padding-left: 0;
+    padding-right: 3em;
   }
 
   div {
@@ -76,7 +80,7 @@ li {
 
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 55.625em) {
 
   html {
     font-size: 130%;
@@ -91,16 +95,33 @@ li {
     float: left;
   }
 
+  .contact-title {
+    padding-right: 3em;
+    float: right;
+    clear: both;
+  }
+
   .contact {
     float: right;
+    clear: both;
+    padding: 0;
+  }
+
+  .footer {
+    float: right;
+    width: 50%;
   }
 
   .logos {
+    padding-right: none;
     float: right;
+    clear: both;
+    margin: 0;
+    text-decoration: none;
   }
 
   p {
-    vertical-align: center;
+    vertical-align: middle;
     max-width: 20em;
     margin-right: 0;
   }
@@ -110,6 +131,10 @@ li {
     float: right;
     clear: both;
     width: 10%;
+  }
+
+  li:hover {
+    opacity: 0.5;
   }
 
 }
