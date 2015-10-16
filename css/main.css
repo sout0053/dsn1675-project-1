@@ -141,8 +141,26 @@ a:hover {
 
 @media print {
 
+  .main {
+    float: left;
+    width: 50%;
+  }
+
   .footer {
-    display: none;
+    /*display: none;*/
+    float: right;
+    display: inline;
+    width: 35%;
+  }
+
+  h1 {
+    color: black;
+    padding-right: 345px;
+  }
+
+  p {
+    max-width: 20em;
+    color: black;
   }
 
 }
